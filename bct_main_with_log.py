@@ -6,7 +6,7 @@ def bct(s, dmax, beta, sample, initial_ctxt):
     '''
     Implements the Bayesian Context Trees (BCT) algorithm to obtain the maximum a
     posteriori probability context tree in a variable length Markov chain
-    (if beta >= 0.5). Allcalculations are done in log scale for numerical precision.
+    (if beta >= 0.5). All calculations are done in log scale for numerical precision.
     Reference:
         Bayesian context trees: modelling and exact inference for discrete time series
         I. Kontoyiannis et al, 2022
