@@ -149,8 +149,19 @@ def example(seed):
     draw(tt,title=f"N=1,000 and seed = {seed}")
 
 def show_examples():
+    '''
+    Call example four times with four different seeds
+
+    Args:
+    -----
+
+    Returns:
+    -----
+    None: Nonetype
+    '''
     example(1)
     example(2)
     example(3)
     example(4)
+
 
